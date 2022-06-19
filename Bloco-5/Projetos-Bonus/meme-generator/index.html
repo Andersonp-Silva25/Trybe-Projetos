@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>[Anderson Silva] Meme Generator</title>
+</head>
+<body>
+    <header id="header-container">
+        <h1 id="main-title">Meme Generator#</h1>
+    </header>
+    <main id="main-container">
+        <section id="box-main-container">
+            <div id="meme-image-container">
+                <div id="box-text">
+                </div>
+            </div>
+            <section id="default-meme">
+                <h2 id="title-select" class="titles">Selecione uma imagem</h2>
+                <label for="meme-insert">Enviar Imagem</label>
+                <input type="file" id="meme-insert">
+                <h2 id="memes-title" class="titles">Memes recomendados</h2>
+                <section id="section-memes-recomendados">
+                    <img src="imgs/meme1.png" alt="" id="meme-1">
+                    <img src="imgs/meme2.png" alt="" id="meme-2">
+                    <img src="imgs/meme3.png" alt="" id="meme-3">
+                    <img src="imgs/meme4.png" alt="" id="meme-4">
+                </section>
+                
+                
+                <h2 id="memes-title" class="titles">Texto de cima</h2>
+                <input type="text" id="text-input" maxlength="60">
+                <h2 id="memes-title" class="titles">Texto de baixo</h2>
+                <input type="text" id="text-input-bottom" maxlength="40">
+                
+                <section id="section-btn">
+                    <h2 id="border" class="titles">Escolha uma borda</h2>
+                    <section id="section-btn-border">
+                        <button id="fire">Fire</button>
+                        <button id="water">Water</button>
+                        <button id="earth">Earth</button>
+                        <button id="none-border" class="selected-border">Padrão</button>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

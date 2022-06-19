@@ -1,0 +1,62 @@
+body {
+    background-image: url(fundo.png);
+    background-size: cover;    
+}
+
+#title {
+    text-align: center;
+}
+
+#color-palette {
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    margin-left: 6px;
+    border: black solid 1px;
+    width: 40px;
+    height: 40px;
+}
+
+.selected {
+    box-shadow: inset 1.5px 1.5px white, 2px 2px black;
+}
+
+#change-color{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#pixel-board {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.line {
+    height: 40px;
+}
+
+.pixel {
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+}
+
+#pixel-board-size {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#board-size {
+    margin-right: 5px;
+}
+
+#clear {
+    text-align: center;
+}

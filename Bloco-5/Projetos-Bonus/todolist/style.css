@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(imagens/hd-wallpaper-1074131.jpg);
+  opacity: 0.8;
+}
+
+.item-list {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+  color: red;
+}
+
+#selected-item {
+  background-color: gray;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+header h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#section-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#section-input-item {
+  display: flex;
+  width: 30%;
+  gap: 10px;
+}
+
+#texto-tarefa {
+  padding: 20px;
+  border: black solid 3px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 90%;
+}
+
+#criar-tarefa {
+  border: none;
+  background-color: transparent;
+  width: 10%;
+  cursor: pointer;
+}
+
+#criar-tarefa img {
+  width: 50px;
+}
+
+#section-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 15px;
+}
+
+#section-list {
+  display: flex;
+  justify-content: center;
+}
+
+#lista-tarefas {
+  width: 30%;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+#lista-tarefas li {
+  margin: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.btn-image {
+  border: none;
+  background: transparent;
+}
+
+#section-btn img {
+  width: 50px;
+}
+
+.btn-style {
+  border: red solid 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+
+.btn-style:hover {
+  background-color: transparent;
+  transition: 0.7s all;
+  color: black;
+}
+
+#salvar-tarefas {
+  background-color: green;
+  border: green solid 5px;
+}
+
+#salvar-tarefas:hover {
+  background-color: transparent;
+  transition: 0.7s all;
+}

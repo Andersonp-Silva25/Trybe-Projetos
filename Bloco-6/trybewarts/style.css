@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #EEEBED;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+  margin-left: 40px;
+}
+
+#login-forms {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+#login-forms input {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+#login-forms button {
+  background-color: #8B187B;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px black;
+  cursor: pointer;
+}
+
+#container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-none {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  max-width: 700px;
+  width: 700px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-flow: column;
+}
+
+#title-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+#container-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 81%;
+}
+
+#container-forms {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#container-forms input {
+  width: 259px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#container-forms select {
+  width: 225px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+#container-forms label {
+  align-self: center;
+  font-weight: 600;
+}
+
+.divisoria {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 2px
+}
+
+#trybewarts-forms-logo {
+  height: 400px;
+}
+
+#second-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+#familys-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#familys-content label{
+  margin-bottom: 15px;
+}
+
+#learn-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#checked-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-top: 15px;
+}
+
+#checked-content label {
+  margin-bottom: 15px;
+  
+}
+
+#rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+#comment textarea {
+  width: 100%;
+  resize: none;
+}
+
+#textarea {
+  margin-top: 5px;
+  height: 80px;
+  border-color: #8B187B;
+  border-radius: 10px;
+}
+
+#comment p {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+#submit-btn {
+  background-color: #8A8887;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px black;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: 40px;
+}
+
+#form-data {
+  display: none;
+  flex-direction: column;
+  height: 640px;
+}
+
+#form-data p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+

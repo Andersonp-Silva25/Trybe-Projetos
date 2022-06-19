@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+    <h2 id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</h2>
+  </header>
+  <main>
+    <section id="section-input">
+      <section id="section-input-item">
+        <input type="text" id="texto-tarefa">
+        <button type="button" id="criar-tarefa"><img src="imagens/verifica.png" alt=""></button>
+      </section>
+    </section>
+    <section id="section-btn">
+      <button type="button" id="remover-selecionado" class="btn-image"><img src="imagens/multiplicar.png" alt="Remover Selecionado"></button>
+      <button type="button" id="mover-cima" class="btn-image"><img src="imagens/seta-para-cima.png" alt="Mover para cima"></button>
+      <button type="button" id="mover-baixo" class="btn-image"><img src="imagens/seta-para-baixo.png" alt="Mover para baixo"></button>
+      <button type="button" id="remover-finalizados" class="btn-style">Limpar finalizados</button>
+      <button type="button" id="apaga-tudo" class="btn-style">Limpar lista</button>
+      <button type="button" id="salvar-tarefas" class="btn-style">Salvar lista</button>
+    </section>
+    <section id="section-list">
+      <ol id="lista-tarefas"></ol>
+    </section>
+    
+  </main>
+    
+  <script src="script.js"></script>
+</body>
+</html>

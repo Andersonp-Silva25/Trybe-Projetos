@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: green;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  z-index: 2;
+}
+
+#titulo {
+  color: white;
+}
+
+.border {
+  border: 2px #CCC dashed;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 10px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#section-licoes-aprendidas {
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  border: 1px dashed green;
+  border-radius: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#section-licoes-a-aprender {
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 50px;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-bottom: 70px;
+  border: 1px dashed green;
+  border-radius: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav {
+  display: block;
+  margin-top: 350px;
+  margin-left: 140px;
+}
+
+#nav a {
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 80px;
+  font-size: 22px;
+}
+
+#nav a:hover {
+  background-color: wheat;
+  text-decoration: none;
+  color: cadetblue;
+  font-weight: 600;
+  padding: 10px 80px;
+  font-size: 22px;
+}
+
+#minha_foto {
+  position: absolute;
+  width: 200px;
+  left: 170px;
+  right: 0;
+  top: 120px;
+  border-radius: 50%;
+}
+
+.skills {
+  font-style: italic;
+  color: gray;
+}
+
+#rodape {
+  margin-top: 50px;
+}
+
+#rodape h3 {
+  font-size: 12px;
+}

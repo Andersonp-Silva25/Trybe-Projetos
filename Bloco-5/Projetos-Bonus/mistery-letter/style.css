@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(image/background-2030857_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 2px 2px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#main-texto-carta {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#carta-texto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carta-texto {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#criar-carta {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #C70039;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#main-carta-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contador-palavras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#contador-palavras h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: black 2px 2px;
+}
+
+#carta-contador {
+    font-size: 20px;
+    font-weight: bold;
+    border: #C70039 solid 4px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: white;
+    text-shadow: black 2px 2px;
+}
+
+#background-carta {
+    background-image: url(image/scroll-1033117_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 700px;
+    border-radius: 10px;
+}
+
+#carta-gerada {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#carta-gerada span {
+    margin: 10px;
+}
+
+.newspaper {
+    background-color: rgb(250, 235, 215);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.magazine1 {
+    background-color: rgb(0, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url(images/pink-pattern.png);
+    color: rgb(255, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.medium {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.rotateleft {
+    transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+    transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+}
+
+.skewleft {
+    transform: matrix(1, 0, 0.176327, 1, 0, 0);
+}
+
+.skewright {
+    transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
+
+span {
+    margin-right: 15px;
+}
